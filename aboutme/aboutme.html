@@ -1,51 +1,38 @@
 <h3>About me</h3>
-
-<meta charset="UTF-8">
 <style>
-    #text {
-        float: left;
-        display: table-cell;
-        width: 55%;
-        height: 100%;
-    }
-
-    #photo {
-        float: right;
-        display: table-cell;
-        width: 40%;
-        height: 100%;
-    }
-
-    #aboutme {
-        table-layout: fixed;
-        display: table;
-        width: 100%;
-        height: 100%;
-    }
-
+  .about-profile {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.7fr);
+    align-items: start;
+    gap: 2rem;
+  }
+  .about-profile p:first-child { margin-top: 0; }
+  .about-profile p:last-child { margin-bottom: 0; }
+  .about-photo { display: block; width: 100%; height: auto; }
+  .resume-downloads {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 1rem;
+    margin-top: 1.5rem;
+  }
+  .resume-downloads a { display: inline-block; }
+  @media (max-width: 640px) {
+    .about-profile { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+    .about-profile .about-photo { max-width: 280px; }
+  }
 </style>
-
-<body>
-    <div id="abuotme">
-        <div id="photo"><img src="img/Noah/Noah.jpg"></div>
-        <div id="text">
-            <div id="myname">Hi, I am Bocheng(Noah) Cui, 崔博程 in Chinese and 최박정 in Korean. You can pronounce my last
-                name as "Choi" or "Tsui".</div>
-            <br>
-            <div id="mystuff">
-                I am a Ph.D. student in Computer Science at the University of New Hampshire. My research focuses on provenance and replication in distributed and cloud environments, fault tolerance, and edge systems.
-                <!-- I am currently a Ph.D. student at UNH, actively looking for funded positions and internship -->
-                <!-- opportunities. -->
-            </div>
-        </div>
-    </div>
-    <br>
-</body>
-
+<div class="about-profile">
+  <div class="about-copy">
+    <p>Hi, I am Bocheng(Noah) Cui, 崔博程 in Chinese and 최박정 in Korean. You can pronounce my last name as "Choi" or "Tsui".</p>
+    <p>I am a Ph.D. student in Computer Science at the University of New Hampshire. My research focuses on provenance and replication in distributed and cloud environments, fault tolerance, and edge systems.</p>
+  </div>
+  <img class="about-photo" src="img/Noah/Noah.jpg" alt="Bocheng Cui">
+</div>
 <nav class="resume-downloads" aria-label="CV and resume downloads">
   <strong>CV &amp; Resume:</strong>
-  <a href="aboutme/CV.pdf">CV (English)</a> ·
-  <a href="aboutme/resume.pdf">Resume (English)</a> ·
-  <a href="aboutme/CV_zh.pdf" lang="zh-Hans">完整版 CV（中文）</a> ·
+  <a href="aboutme/CV.pdf">CV (English)</a>
+  <a href="aboutme/resume.pdf">Resume (English)</a>
+  <a href="aboutme/CV_zh.pdf" lang="zh-Hans">完整版 CV（中文）</a>
   <a href="aboutme/resume_zh.pdf" lang="zh-Hans">简历（中文）</a>
 </nav>
