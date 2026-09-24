@@ -30,6 +30,8 @@
   <!-- importing aboutme -->
   <div id="aboutme"></div>
   <br>
+  <div id="publications"></div>
+  <br>
   <br>
   <!-- importing news -->
   <!-- <div id="news"></div>
@@ -40,7 +42,6 @@
   <br>
   <br>
    <!-- importing publications -->
-  <div id="publications"></div>
   <br>
   <br>
     <!-- immporting Talks -->
