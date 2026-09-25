@@ -5,28 +5,21 @@
       "file": "2026-active-reproducibility.pdf",
       "title": "Active Reproducibility for File-Based Exploratory Science",
       "source_url": "https://raw.githubusercontent.com/noahcui/repeatfs/ACMRepPaperMerge/supplemental/acmrep2026/ACToR.pdf",
-      "original_url": "https://github.com/noahcui/repeatfs/blob/ACMRepPaperMerge/supplemental/acmrep2026/ACToR.pdf",
+      "original_url": "https://dl.acm.org/doi/10.1145/3820002.3828580",
       "version_note": "作者仓库版本",
       "pages": 12,
-      "sha256": "d2da4760019802613ae38afd6c329952289e62023157d5a81c91aa4b6042459e"
+      "sha256": "d2da4760019802613ae38afd6c329952289e62023157d5a81c91aa4b6042459e",
+      "doi": "10.1145/3820002.3828580"
     },
     {
       "file": "2026-point-and-click-reproducibility.pdf",
       "title": "Point-and-Click Reproducibility for Command-Line Data Analysis",
       "source_url": "https://raw.githubusercontent.com/noahcui/repeatfs/ACMRepPaperMerge/supplemental/acmrep2026/VDF.pdf",
-      "original_url": "https://github.com/noahcui/repeatfs/blob/ACMRepPaperMerge/supplemental/acmrep2026/VDF.pdf",
+      "original_url": "https://dl.acm.org/doi/10.1145/3820002.3828586",
       "version_note": "作者仓库版本",
       "pages": 12,
-      "sha256": "64e91e1acf90e2d505a9c24ee089f81477a79ec098c8da0ce109597cbc03c3f2"
-    },
-    {
-      "file": "2024-cloudy-forecast-preprint.pdf",
-      "title": "Cloudy Forecast: How Predictable is Communication Latency in the Cloud?",
-      "source_url": "https://arxiv.org/pdf/2309.13169",
-      "original_url": "https://ieeexplore.ieee.org/abstract/document/10637631",
-      "version_note": "arXiv:2309.13169v1，2023-09-22 预印本；文件名前缀为会议发表年份，不代表最终出版版本",
-      "pages": 21,
-      "sha256": "dae0e8a744476abf1158750b23171ab9284ccaacd87dd876bb214fc130dcefc0"
+      "sha256": "64e91e1acf90e2d505a9c24ee089f81477a79ec098c8da0ce109597cbc03c3f2",
+      "doi": "10.1145/3820002.3828586"
     },
     {
       "file": "2021-shard-manager.pdf",
@@ -52,6 +45,11 @@
       "title": "Simpler is Better: Revisiting Mencius State Machine Replication",
       "original_url": "https://ieeexplore.ieee.org/abstract/document/10806600",
       "status": "未获取 PDF；IEEE 下载返回 HTTP 418，未找到作者公开全文。保留原始入口，需补充作者 PDF。"
+    },
+    {
+      "title": "Cloudy Forecast: How Predictable is Communication Latency in the Cloud?",
+      "original_url": "https://ieeexplore.ieee.org/abstract/document/10637631",
+      "status": "ICCCN 2024 已正式发表；仅接受正式发表版 PDF，不使用 arXiv 预印本替代。尚未获取正式版，网站链接指向 IEEE Xplore。"
     }
   ]
 }
